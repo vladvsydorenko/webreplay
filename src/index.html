@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="../src/style.css">
+</head>
+<body>
+    <canvas id="canvas" class="canvas"></canvas>
+    <div class="panel">
+        <button id="record">Record</button>
+        <button id="play" style="display: none">Play</button>
+        <select name="speed" id="speed" title="Playback Speed" style="display: none">
+            <option value="0.2">0.2x</option>
+            <option value="0.5">0.5x</option>
+            <option value="1" selected>1x</option>
+            <option value="2">2x</option>
+            <option value="3">3x</option>
+        </select>
+    </div>
+    <div id="cursor" class="cursor" style="display: none"></div>
+
+    <div id="help" class="help">
+        <p>
+            Press "Record" Button then move cursor and click anywhere as if it is not stupid thing.
+        </p>
+        <p>
+            Then press "Play" Button and see what the hell you've done right now.
+        </p>
+    </div>
+</body>
+</html>
