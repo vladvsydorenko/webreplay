@@ -1,5 +1,7 @@
 # Webreplay
 
+Just an example to make reactive mouse event capturing.
+
 Simple reactive example of how mouse recording could be done.
 Don't use it at production :)
 
